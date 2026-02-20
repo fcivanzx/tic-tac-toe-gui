@@ -1,0 +1,36 @@
+# 🔹 Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Entornos virtuales
+.venv/
+env/
+venv/
+
+# 🔹 Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🔹 Configuración de editores
+.vscode/
+.idea/
+
+# 🔹 Archivos de logs
+*.log
+
+# 🔹 Archivos temporales
+*.tmp
+*.swp
+
+# 🔹 Carpetas de build
+build/
+dist/
+
+# 🔹 Archivos de pruebas o caché
+.cache/
+.pytest_cache/
+
+# 🔹 Archivos ocultos de Python
+*.egg-info/
