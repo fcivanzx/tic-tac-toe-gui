@@ -72,14 +72,15 @@ def reset_game():
 
 # Crear ventana
 root = tk.Tk()
-root.title("Tic-Tac-Toe PRO")
+root.title("Tic-Tac-Toe PRO UI")
 root.geometry("400x500")
-root.configure(bg="#1e1e1e")
+root.configure(bg="#0f172a")
 
 title = tk.Label(root, text="Tic-Tac-Toe", font=("Arial", 20, "bold"), fg="white", bg="#1e1e1e")
 title.pack(pady=10)
 
 status_label = tk.Label(root, text=f"Turno: {current_player}", font=("Arial", 12), fg="white", bg="#1e1e1e")
+status_label.config(fg="yellow")
 status_label.pack(pady=5)
 
 frame = tk.Frame(root, bg="#1e1e1e")
